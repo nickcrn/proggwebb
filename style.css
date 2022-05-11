@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    background-color: #F5F5F5;
+    height: auto;
+}
+
+h1 {
+    background-color: #60F0B4;
+    width: 1321px;
+    padding: 18px;
+    margin: -8px;
+    text-align: center;
+    color: white;
+}
+
+.classh1 {
+    background-color: blue;
+    width: 1313px;
+    padding: 18px;
+    margin: -8px;
+    text-align: center;
+    color: white;
+}
+
+header {
+    background-color: rgb(190, 255, 225);
+    width: auto;
+    padding: 0px;
+    margin: -8px;
+    text-align: center;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.no_list {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    text-align: center;
+}
+
+p {
+    color: black;
+    margin: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+div, h2 {
+    padding: 4px;
+    margin: 20px;
+}
+
+.div1 {
+    width: 400px;
+    padding: 6px;
+    border: 7px solid #A40FFA;
+    border-radius: 25px;
+}
+
+.div2 {
+    width: 520px;
+    padding: 10px;
+    border: 7px solid #F00E69;
+    border-radius: 25px;
+}
+
+.div3 {
+    width: 600px;
+    padding: 8px;
+    border: 7px solid #43C6FA;
+    border-radius: 25px;
+}
+
+img {
+    border: 7px solid #1923E3;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: #60F0B4;
+    width: auto;
+    padding: 2px;
+    margin: -8px;
+    text-align: center;
+    color: white;
+}
+
+@media (max-width: 650px) {
+    .div1 {
+        width: 84vw;
+        padding: 2vw;
+        border: 7px solid #A40FFA;
+        border-radius: 25px;
+        margin: 1vw;
+        align-items: center;
+    }
+
+    .div2 {
+        width: 80vw;
+        padding: 4vw;
+        border: 7px solid #F00E69;
+        border-radius: 25px;
+        margin: 1vw;
+    }
+
+    .div3 {
+        width: 80vw;
+        padding: 4vw;
+        border: 7px solid #43C6FA;
+        border-radius: 25px;
+        margin: 1vw;
+    }
+
+    h1 {
+        background-color: #60F0B4;
+        width: 92vw;
+        padding: 3vw;
+        margin: -8px;
+        text-align: center;
+        color: white;
+    }
+
+    h2 {
+        text-align: center;
+    }
+}
